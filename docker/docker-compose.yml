@@ -16,8 +16,6 @@ services:
     # To use a pre-built image, remove the above "build" section
     # and uncomment the following line:
     # image: healthchecks/healthchecks:latest
-    env_file:
-        - .env
     ports:
         - "5000:5000"
         # To enable SMTP on port 2525, set SMTPD_PORT=2525 in .env
