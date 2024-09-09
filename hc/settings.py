@@ -347,6 +347,9 @@ INTEGRATIONS_ALLOW_PRIVATE_IPS = envbool("INTEGRATIONS_ALLOW_PRIVATE_IPS", "Fals
 # Zulip
 ZULIP_ENABLED = envbool("ZULIP_ENABLED", "True")
 
+# CSRF
+CSRF_TRUSTED_ORIGINS = os.getenv("CSRF_TRUSTED_ORIGINS", "*").split(",")
+
 # Read additional configuration from hc/local_settings.py if it exists
 if (BASE_DIR / "hc/local_settings.py").exists():
     from .local_settings import *  # noqa: F403
