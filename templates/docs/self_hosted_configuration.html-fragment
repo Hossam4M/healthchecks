@@ -550,7 +550,7 @@ self-hosted instances. This logo is not part of the Healthchecks open-source pro
 <p>The display name of this Healthchecks instance. Healthchecks uses it throughout
 its web UI and documentation.</p>
 <h2 id="SITE_ROOT"><code>SITE_ROOT</code></h2>
-<p>Default: <code>http://localhost:8000</code></p>
+<p>Default: <code>http://localhost:5000</code></p>
 <p>The base URL of this Healthchecks instance. Healthchecks uses <code>SITE_ROOT</code> whenever
 it needs to construct absolute URLs.</p>
 <h2 id="SLACK_CLIENT_ID"><code>SLACK_CLIENT_ID</code></h2>

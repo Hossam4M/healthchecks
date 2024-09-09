@@ -789,7 +789,7 @@ its web UI and documentation.
 
 ## `SITE_ROOT` {: #SITE_ROOT }
 
-Default: `http://localhost:8000`
+Default: `http://localhost:5000`
 
 The base URL of this Healthchecks instance. Healthchecks uses `SITE_ROOT` whenever
 it needs to construct absolute URLs.

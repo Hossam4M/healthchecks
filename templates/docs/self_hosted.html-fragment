@@ -82,7 +82,7 @@ $<span class="w"> </span>./manage.py<span class="w"> </span>createsuperuser
 
 </li>
 </ul>
-<p>At this point, the site should now be running at <code>http://localhost:8000</code>.</p>
+<p>At this point, the site should now be running at <code>http://localhost:5000</code>.</p>
 <h2>Accessing Administration Panel</h2>
 <p>Healthchecks comes with Django's administration panel where you can manually
 view and modify user accounts, projects, checks, integrations etc. To access it,

@@ -38,7 +38,7 @@ $<span class="w"> </span>docker-compose<span class="w"> </span>up
 
 </li>
 <li>
-<p>Open <a href="http://localhost:8000">http://localhost:8000</a> in your browser and log in with
+<p>Open <a href="http://localhost:5000">http://localhost:5000</a> in your browser and log in with
   the credentials from the previous step.</p>
 </li>
 </ul>

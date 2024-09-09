@@ -13,7 +13,7 @@ class Command(BaseCommand):
         if host == "*":
             host = "localhost"
 
-        req = Request("http://localhost:8000/api/v3/status/", headers={"Host": host})
+        req = Request("http://localhost:5000/api/v3/status/", headers={"Host": host})
         with urlopen(req) as response:
             assert response.status == 200
 

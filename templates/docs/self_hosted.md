@@ -71,7 +71,7 @@ The following instructions assume you are using a Debian-based OS.
 
         $ ./manage.py sendalerts
 
-At this point, the site should now be running at `http://localhost:8000`.
+At this point, the site should now be running at `http://localhost:5000`.
 
 ## Accessing Administration Panel
 

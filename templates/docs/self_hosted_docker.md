@@ -33,7 +33,7 @@ termination.
 
         $ docker-compose run web /opt/healthchecks/manage.py createsuperuser
 
-* Open [http://localhost:8000](http://localhost:8000) in your browser and log in with
+* Open [http://localhost:5000](http://localhost:5000) in your browser and log in with
   the credentials from the previous step.
 
 ## uWSGI Configuration

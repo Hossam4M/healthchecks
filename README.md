@@ -130,9 +130,9 @@ To set up Healthchecks development environment:
   ./manage.py runserver
   ```
 
-The site should now be running at `http://localhost:8000`.
+The site should now be running at `http://localhost:5000`.
 To access Django administration site, log in as a superuser, then
-visit `http://localhost:8000/admin/`
+visit `http://localhost:5000/admin/`
 
 ## Configuration
 
@@ -397,8 +397,8 @@ To enable Discord integration, you will need to:
 * register a new application on https://discord.com/developers/applications/me
 * add a redirect URI to your Discord application. The URI format is
   `SITE_ROOT/integrations/add_discord/`. For example, if you are running a
-  development server on `localhost:8000` then the redirect URI would be
-  `http://localhost:8000/integrations/add_discord/`
+  development server on `localhost:5000` then the redirect URI would be
+  `http://localhost:5000/integrations/add_discord/`
 * Look up your Discord app's Client ID and Client Secret. Put them
   in `DISCORD_CLIENT_ID` and `DISCORD_CLIENT_SECRET` environment
   variables.
