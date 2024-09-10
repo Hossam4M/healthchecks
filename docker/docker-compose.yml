@@ -33,6 +33,9 @@ services:
       DB_SSLMODE: prefer
       DEBUG: $DEBUG
       SITE_LOGO_URL: $SITE_LOGO_URL
+      PING_BODY_LIMIT: 10000
+      PING_EMAIL_DOMAIN: $PING_EMAIL_DOMAIN
+      PING_ENDPOINT: $PING_ENDPOINT
     ports:
         - "5000:5000"
         # To enable SMTP on port 2525, set SMTPD_PORT=2525 in .env
