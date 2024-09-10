@@ -31,6 +31,7 @@ services:
       DB_PASSWORD: $DB_PASSWORD
       DB_PORT: 5432
       DB_SSLMODE: prefer
+      DEBUG: $DEBUG
     ports:
         - "5000:5000"
         # To enable SMTP on port 2525, set SMTPD_PORT=2525 in .env
