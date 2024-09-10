@@ -25,6 +25,7 @@ services:
       SECRET_KEY: $SECRET_KEY
       SITE_ROOT: $SITE_ROOT
       CSRF_TRUSTED_ORIGINS: $CSRF_TRUSTED_ORIGINS
+      DB: postgres
       DB_HOST: db
       DB_NAME: $DB_NAME
       DB_PASSWORD: $DB_PASSWORD
