@@ -9,6 +9,18 @@ services:
     environment:
       POSTGRES_DB: $DB_NAME
       POSTGRES_PASSWORD: $DB_PASSWORD
+
+  caddy:
+    image: caddy:2.6.4
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - caddy:/data
+    depends_on:
+      - web
+      
   web:
     build:
         context: ..
